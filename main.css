@@ -6,6 +6,10 @@
     background-color: #E00EEF;
 }
 
+.has-text-fuchsia {
+    color: #E00EEF;
+}
+
 .custom-positioning {
     position: relative;
     top: 10vh;
@@ -17,6 +21,11 @@
     margin: 30px;
 }
 
+.has-thin-bottom-border {
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    border-width: thin;
+}
+
 .is-playfair {
     font-family: 'Playfair Display', serif;
 }
@@ -26,7 +35,7 @@
 }
 
 .more-top-padding {
-    padding-top: 5px;
+    padding-top: 2rem;
 }
 
 .three-line {
@@ -69,6 +78,13 @@
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.back-arrow {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: fit-content;
 }
 
 @media screen and (min-width: 900px) {
